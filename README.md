@@ -101,13 +101,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Sabrina        | Rafi               | Jeppe        | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Qs eigen code  | copyright/bronnen? | achtergronden| -                |
+  | en dat ook nog | dit als er tijd is | nog een punt | -                |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  hier na afloop snel de uitkomsten van de meeting vastleggen.
 
   - taal bovenin html veranderen
   - title veranderen
