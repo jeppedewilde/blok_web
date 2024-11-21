@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Jeppe de Wilde
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Responsive / surface plane (twijfel)
  
 </details>
 
@@ -36,15 +36,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.lewiscapaldi.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Home pagina  
+  <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 06 36" src="https://github.com/user-attachments/assets/00d2eabc-77a5-42b7-b31b-eb86590a6d22">
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Watch pagina + sign up pagina  
+  <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 07 22" src="https://github.com/user-attachments/assets/572fb615-9485-476a-bc47-f94c8d2927c8">
+  <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 07 45" src="https://github.com/user-attachments/assets/65d70883-3d51-4b52-9cb6-9607350a6f4f">
+
+
  
 </details>
 
