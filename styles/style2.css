@@ -1,0 +1,67 @@
+body {
+    background-image: url(../images/lewis_capaldi_color_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'League Spartan', 'Sans Serif';
+    color: #fadeec;
+}
+
+header {
+    padding-bottom: 3em;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+main div {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main div section {
+    height: fit-content;
+    overflow: hidden;
+    margin-top: 1em;
+}
+
+main div section img {
+    width: 35vw;
+}
+
+section img, section h2, section p {
+    margin: 0;
+}
+
+h2, p {
+    font-family: 'Arimo', 'Sans Serif';
+    color: #fadeec;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fadeec;
+}
+
+footer li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h3 {
+    text-transform: uppercase;
+}

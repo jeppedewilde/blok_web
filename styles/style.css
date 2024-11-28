@@ -6,10 +6,6 @@
 }
 
 
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -20,12 +16,132 @@
 }
 
 
-
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: 'League Spartan', 'Sans Serif';
+	color: #fadeec;
+}
 
+main {
+	background-color: #657b9f;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main section:first-of-type {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	margin-top: 15.5em;
+}
+
+h1 {
+	position: fixed;
+	margin-top: 5em;
+}
+
+
+nav {
+	margin-top: 1em;
+	text-align: center;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+nav ul li a {
+	color: #fadeec;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'League Spartan';
+	font-size: 1.2em;
+}
+
+header {
+	position: fixed;
+}
+
+header nav ul {
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-template-rows:repeat(6, 1fr);
+	width: 100vw;
+	height: 100vh;
+}
+
+button {
+	color: #6E6B86;
+	background-color: #fadeec;
+	padding: 9px 18px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', 'Sans Serif';
+	font-size: 12px;
+}
+
+main section:nth-of-type(2) {
+	overflow-y: scroll;
+}
+
+img {
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	object-fit: cover;
+}
+
+nav ul li:nth-child(1) {
+	grid-column-start: 2;
+	grid-row-start: 1;
+}
+
+nav ul li:nth-child(2) {
+	grid-column-start: 1;
+	grid-row-start: 2;
+}
+
+nav ul li:nth-child(3) {
+	grid-column-start: 3;
+	grid-row-start: 2;
+}
+
+nav ul li:nth-child(4) {
+	grid-column-start: 1;
+	grid-row-start: 4;
+}
+
+nav ul li:nth-child(5) {
+	grid-column-start: 3;
+	grid-row-start: 4;
+}
+
+nav ul li:nth-child(6) {
+	grid-column-start: 1;
+	grid-row-start: 6;
+}
+
+nav ul li:nth-child(7) {
+	grid-column-start: 3;
+	grid-row-start: 6;
+} 
+
+footer {
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fadeec;
+}
