@@ -142,10 +142,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - alle linkjes naar je 2e pagina laten gaan
+  - merch pagina section article ipv div section
+  - 2 styles pagina's is prima voor jou
 
 </details>
 
