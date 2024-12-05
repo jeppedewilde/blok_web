@@ -13,68 +13,121 @@
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body class="merch">
+<body>
     <header>
+        <button>Menu</button>
+        <a href="/index.html"><img src="./images/lewis_capaldi_logo.avif" alt="Lewis Capaldi logo"></a>
         <nav>
-
+            <button>Sluit</button>
+            <ul>
+                <li> 
+					<a href="index.html">Home</a>
+				</li>
+                <li> 
+					<a href="index.html">Tour</a>
+				</li>
+				<li>
+					<a href="index.html">Watch</a>
+				</li>
+				<li>
+					<a href="index.html">Listen</a>
+				</li>
+				<li>
+					<a href="index.html">Merch</a>
+				</li>
+				<li>
+					<a href="index.html">Store</a>
+				</li>
+				<li>
+					<a href="index.html">Follow</a>
+				</li>
+				<li>
+					<a href="index.html">Sign up</a>
+				</li>
+			</ul>
         </nav>
-        <a href="/index.html"><img src="./images/lewis_capaldi_logo.avif" alt=""></a>
+        <button>
+            🔍
+        </button>
+        <input type="text" placeholder="Search..." />
+        <!-- <svg class="icon icon-cart-empty" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+            <path d="m15.75 11.8h-3.16l-.77 11.6a5 5 0 0 0 4.99 5.34h7.38a5 5 0 0 0 4.99-5.33l-.78-11.61zm0 1h-2.22l-.71 10.67a4 4 0 0 0 3.99 4.27h7.38a4 4 0 0 0 4-4.27l-.72-10.67h-2.22v.63a4.75 4.75 0 1 1 -9.5 0zm8.5 0h-7.5v.63a3.75 3.75 0 1 0 7.5 0z" fill="currentColor" fill-rule="evenodd"></path>
+        </svg> -->
     </header>
     <main>
         <div>
-            <section>
-                <img src="./images/lc_merch_sandtracklisttourhoodie.png" alt="">
-                <h2>Sand Tracklist Tour Hoodie</h2>
-                <p>€73,95</p>
-            </section>
-            <section>
-                <img src="./images/lc_merch_blackcoastlinecrewnecksweater.png" alt="">
-                <h2>Black Coastline Crewneck Sweater</h2>
-                <p>€61,95</p>
-            </section>
-            <section>
-                <img src="./images/lc_merch_blackdatebacktourtee.png" alt="">
-                <h2>Black Dateback Tour Tee</h2>
-                <p>€30,95</p>
-            </section>
-            <section>
-                <img src="./images/lc_merch_whitedatebacktourtee.png" alt="">
-                <h2>White Dateback Tour Tee</h2>
-                <p>€30,95</p>
-            </section>
-            <section>
-                <img src="./images/lc_merch_lewisamericassweetheartcap.png" alt="">
-                <h2>Lewis America's Sweetheart Cap</h2>
-                <p>€30,95</p>
-            </section>
-            <section>
-                <img src="./images/lc_merch_navybuckethat.png" alt="">
-                <h2>Navy Bucket Hat</h2>
-                <p>€36,95</p>
-            </section>
-            <section>
-                <img src="./images/lc_merch_tracklistecrutotebag.png" alt="">
-                <h2>Tracklist Ecru Tote Bag</h2>
-                <p>€18,95</p>
-            </section>
-            <section>
-                <img src="./images/lc_merch_stairsmetalkeychain.png" alt="">
-                <h2>Stairs Metal Keychain</h2>
-                <p>€12,95</p>
-            </section>
+            <h1>Merchandise</h1>
+            <select>
+                <option value="USD">United States USD</option>
+                <option value="EUR" selected>Netherlands EUR</option>
+                <option value="GBP">Great Brittain GBP</option>
+            </select>
         </div>
-    </main>
-    <footer>
+        <section>
+            <article>
+                <img src="./images/lc_merch_sandtracklisttourhoodie.png" alt="Sand Tracklist Tour Hoodie">
+                <h2>Sand Tracklist Tour Hoodie</h2>
+                <p data-usd="$78,03" data-eur="€73,95" data-gbp="£61,27">€73,95</p>
+            </article>
+            <article>
+                <img src="./images/lc_merch_blackcoastlinecrewnecksweater.png" alt="Black Coastline Crewneck Sweater">
+                <h2>Black Coastline Crewneck Sweater</h2>
+                <p class="price" data-usd="$65,40" data-eur="€61,95" data-gbp="£51,35">€61,95</p>
+            </article>
+            <article>
+                <img src="./images/lc_merch_blackdatebacktourtee.png" alt="Black Dateback Tour Tee">
+                <h2>Black Dateback Tour Tee</h2>
+                <p class="price" data-usd="$32,67" data-eur="€30,95" data-gbp="£25,66">€30,95</p>
+            </article>
+            <article>
+                <img src="./images/lc_merch_whitedatebacktourtee.png" alt="White Dateback Tour Tee">
+                <h2>White Dateback Tour Tee</h2>
+                <p class="price" data-usd="$32,67" data-eur="€30,95" data-gbp="£25,66">€30,95</p>
+            </article>
+            <article>
+                <img src="./images/lc_merch_lewisamericassweetheartcap.png" alt="Lewis America's Sweetheart Cap">
+                <h2>Lewis America's Sweetheart Cap</h2>
+                <p class="price" data-usd="$32,67" data-eur="€30,95" data-gbp="£25,66">€30,95</p>
+            </article>
+            <article>
+                <img src="./images/lc_merch_navybuckethat.png" alt="Navy Bucket Hat">
+                <h2>Navy Bucket Hat</h2>
+                <p class="price" data-usd="$39,00" data-eur="€36,95" data-gbp="£30,61">€36,95</p>
+            </article>
+            <article>
+                <img src="./images/lc_merch_tracklistecrutotebag.png" alt="Tracklist Ecru Tote Bag">
+                <h2>Tracklist Ecru Tote Bag</h2>
+                <p class="price" data-usd="$20,00" data-eur="€18,95" data-gbp="£15,71">€18,95</p>
+            </article>
+            <article>
+                <img src="./images/lc_merch_stairsmetalkeychain.png" alt="Stairs Metal Keychain">
+                <h2>Stairs Metal Keychain</h2>
+                <p class="price" data-usd="$13,67" data-eur="€12,95" data-gbp="£10,73">€12,95</p>
+            </article>
+        </section>
         <h3>Links</h3>
         <ul>
 			<li>
-				<a href="">Cookie choices</a>
-				<a href="">C 2024 EMI records</a>
-				<a href="">Privacy</a>
-				<a href="">Safe surf</a>
-				<a href="">Terms</a>
-				<a href="">Cookies</a>
+				<a href="index.html">Privacy policy</a>
+				<a href="index.html">Terms and conditions</a>
+				<a href="index.html">Contact us</a>
+				<a href="index.html">Size guide</a>
+				<a href="index.html">Returns</a>
+				<a href="index.html">Help and FAQs</a>
 			</li>
 		</ul>
+        <form>
+            <fieldset>
+                <legend>Sign up</legend>
+                <label for="name">Name</label>
+                <input id="name" required type="text" placeholder="Your name...">
+                <label for="email">E-mail</label>
+                <input id="email" required type="email" placeholder="Your e-mail...">
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form> 
+    </main>
+    <footer>
+        <p>© 2024, Lewis Capaldi Powered by Shopify</p>
     </footer>
 </body>

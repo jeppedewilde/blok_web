@@ -1,67 +1,303 @@
+/****************/
+/* MERCH PAGINA  */
+/****************/
+
+/****************/
+/* ALGEMEEN  */
+/****************/
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', 'Sans Serif';
+}
+
 body {
     background-image: url(../images/lewis_capaldi_color_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top left;
     background-attachment: fixed;
-    font-family: 'League Spartan', 'Sans Serif';
     color: #fadeec;
 }
 
+/****************/
+/* HEADER & NAV */
+/****************/
+
 header {
     padding-bottom: 3em;
+    display: flex;
+    align-items: center;
 }
 
 header img {
     display: block;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1em;
     max-width: 50%;
+    z-index: 1;
 }
 
+header button, nav button {
+    display: flex;
+    padding: 0.3em;
+    font-size: 1.1em;
+    margin-left: 0.3em;
+}
+
+header button {
+    background-color: #6E6B86;
+    color: #fadeec; 
+}
+
+nav button {
+    background-color: #fadeec;
+    color: #6E6B86;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+header > button {
+    order: -1;
+  }
+
+nav {
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    translate:-100% 0%;
+    transition:translate .3s;
+    background-color: #6E6B86;
+    width: 50vw;
+    height: fit-content;
+}
+
+nav ul li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.8em;
+}
+
+nav.toonMenu {
+    translate: 0% 0%;
+}
+
+header button:nth-of-type(2) {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+header input[type="text"] {
+    width: 0; /* Begint onzichtbaar */
+    opacity: 0; /* Start onzichtbaar */
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #fadeec;
+    background-color: #6E6B86;
+    border-radius: 4px;
+    outline: none;
+    transition: width 0.3s ease; /* Animatie bij tonen/verbergen */
+    z-index: 2;
+}
+
+::placeholder {
+    color: #fadeec;
+}
+
+button.active + input[type="text"] {
+    width: 200px; /* Toon de zoekbalk */
+    opacity: 1;
+}
+
+
+/****************************************************************/
+/* styling voor de header als de browser minimaal 38em breed is */
+/****************************************************************/
+
+@media (min-width:38em) {
+    header > button {
+    display: none;
+    }
+    
+    nav {
+    position: static;
+    translate: unset;
+    padding: 0;
+    background: none;
+    }
+    
+    nav button {
+    display: none;
+    }
+    
+    nav ul {
+    display: flex;
+    gap: 1em;
+    }
+    
+    nav a {
+    flex-direction: column;
+    border: none;
+    }
+    
+    header > a:last-of-type {
+    flex-direction: column;
+    }
+}
+  
+
+/****************************************************************/
+/* styling voor de header als de browser minimaal 57em breed is */
+/****************************************************************/
+  @media (min-width:57em) {
+    header > a:last-of-type,
+    nav a {
+    flex-direction: row;
+    }
+}
+
+
+/****************/
+/* H1 & DROPDOWN FLEX  */
+/****************/
+
 main div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+
+/****************/
+/* WEBSHOP ITEMS  */
+/****************/
+
+main section {
     display: grid;
     grid-template-columns:1fr 1fr;
     width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
+    justify-items: center;
+    grid-column-gap: 0.1em;
+    margin-bottom: 3em;
 }
 
-main div section {
+main section article {
     height: fit-content;
     overflow: hidden;
     margin-top: 1em;
+    max-width: 47vw;
 }
 
-main div section img {
-    width: 35vw;
-}
-
-section img, section h2, section p {
-    margin: 0;
-}
-
-h2, p {
-    font-family: 'Arimo', 'Sans Serif';
-    color: #fadeec;
+main section article img {
+    width: 100%;
 }
 
 h2 {
     font-size: 1em;
 }
 
-footer a {
+/****************/
+/* LINKS  */
+/****************/
+
+h3 {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fadeec;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
 }
 
-footer li {
+ul li {
     list-style-type: none;
     display: flex;
     flex-direction: column;
 }
 
-footer h3 {
-    text-transform: uppercase;
+main ul {
+    margin-bottom: 2em;
 }
+
+/****************/
+/* FOOTER  */
+/****************/
+
+footer p {
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/****************/
+/* DROPDOWN BUTTON */
+/****************/
+
+select {
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 2px solid #fadeec;
+    color: #fadeec;
+    background-color: #6E6B86;
+    cursor: pointer;
+    margin-left: 0.3em;
+}
+
+/*************/
+/* FORMULIER */
+/*************/
+
+form {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 3em;
+    background-color: #6e6b8673;
+    padding: 0.5em;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+fieldset input {
+    background-color: #6E6B86;
+    border: 0.2em solid #fadeec;
+    padding: 0.5em;
+    width: 50vw;
+    margin-bottom: 1em;
+}
+
+form label {
+    color: #fadeec;
+}
+
+form button {
+    width: fit-content;
+    padding: 0.5em;
+    color: #6E6B86;
+    background-color: #fadeec;
+}
+
