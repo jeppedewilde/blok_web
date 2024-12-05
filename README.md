@@ -174,6 +174,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  - zoekbalk gaat niet over de rest van de header heen
+  - footer home pagina
 
   ### Agenda voor meeting
   samen met je groepje opstellen
