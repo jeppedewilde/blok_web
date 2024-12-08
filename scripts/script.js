@@ -17,14 +17,9 @@ document.querySelector("select").addEventListener("change", function () {
 
 var openButton = document.querySelector("header > button");
 
-// stap 2: laat de menu-button luisteren naar kliks en voer dan een functie uit
 openButton.onclick = openMenu;
-
-// stap 3: voeg in de functie een class toe aan de nav
 function openMenu() {  
-  // zoek de nav op
   var deNav = document.querySelector("nav");
-  // voeg class toe aan nav
   deNav.classList.add("toonMenu");
 }
 
@@ -65,18 +60,21 @@ function handleKeydown(event) {
   }
 }
 
-/**********************************/
+/************/
 /* ZOEKBALK */
-/**********************************/
+/************/
 
 const button = document.querySelector('header button:nth-of-type(2)');
 const input = document.querySelector('input[type="text"]');
 
-// Voeg een klik-event toe aan het vergrootglas
 button.addEventListener('click', () => {
-  button.classList.toggle('active'); // Toggle de active-klasse
-  input.focus(); // Focus automatisch op de zoekbalk
+  button.classList.toggle('active'); 
+  input.focus(); 
 });
+
+/**************/
+/* ANIMATIONS */
+/**************/
 
 
 

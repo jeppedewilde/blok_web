@@ -15,7 +15,7 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#fadeec;
+	--color-main:#fadeec;
 	--color-background:#657b9f;
 }
 
@@ -128,7 +128,6 @@ button {
 	background-color: #fadeec;
 	padding: 9px 18px;
 	text-transform: uppercase;
-	/* font-family: 'Open Sans', 'Sans Serif'; */
 	font-size: 12px;
 }
 
@@ -167,7 +166,7 @@ footer {
 	text-align: center;
 }
 
-footer a {
+footer a, footer p {
 	text-decoration: none;
 	color: #fadeec;
 }
@@ -176,3 +175,8 @@ footer ul li {
 	display: flex;
 	flex-direction: row;
 }
+
+/****************/
+/* ANIMATIONS  */
+/****************/
+

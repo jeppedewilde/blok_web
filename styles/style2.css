@@ -30,20 +30,21 @@ header {
     padding-bottom: 3em;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 header img {
     display: block;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    /* justify-content: center; */
+    /* margin-left: 16vw; */
+    /* margin-right: 0; */
     margin-top: 1em;
-    max-width: 50%;
-    z-index: 1;
+    width: 50vw;
 }
 
 header button, nav button {
     display: flex;
+    flex-direction: row;
     padding: 0.3em;
     font-size: 1.1em;
     margin-left: 0.3em;
@@ -61,18 +62,18 @@ nav button {
     margin-bottom: 1em;
 }
 
-header > button {
+/* header > button {
     order: -1;
-  }
+  } */
 
 nav {
     position:fixed;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    translate:-100% 0%;
-    transition:translate .3s;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    translate: -100% 0%;
+    transition: translate .3s;
     background-color: #6E6B86;
     width: 50vw;
     height: fit-content;
@@ -88,7 +89,7 @@ nav.toonMenu {
     translate: 0% 0%;
 }
 
-header button:nth-of-type(2) {
+header button:nth-of-type(2), header button:nth-of-type(3) {
     background: none;
     border: none;
     cursor: pointer;
@@ -104,8 +105,10 @@ header input[type="text"] {
     background-color: #6E6B86;
     border-radius: 4px;
     outline: none;
-    transition: width 0.3s ease; /* Animatie bij tonen/verbergen */
+    transition: width 0.4s ease; /* Animatie bij tonen/verbergen */
     z-index: 2;
+    position: absolute;
+
 }
 
 ::placeholder {
@@ -113,55 +116,13 @@ header input[type="text"] {
 }
 
 button.active + input[type="text"] {
-    width: 200px; /* Toon de zoekbalk */
+    width: 75vw; /* Toon de zoekbalk */
+    height: 2.5em;
     opacity: 1;
 }
 
-
-/****************************************************************/
-/* styling voor de header als de browser minimaal 38em breed is */
-/****************************************************************/
-
-@media (min-width:38em) {
-    header > button {
-    display: none;
-    }
-    
-    nav {
-    position: static;
-    translate: unset;
-    padding: 0;
-    background: none;
-    }
-    
-    nav button {
-    display: none;
-    }
-    
-    nav ul {
-    display: flex;
-    gap: 1em;
-    }
-    
-    nav a {
-    flex-direction: column;
-    border: none;
-    }
-    
-    header > a:last-of-type {
-    flex-direction: column;
-    }
-}
-  
-
-/****************************************************************/
-/* styling voor de header als de browser minimaal 57em breed is */
-/****************************************************************/
-  @media (min-width:57em) {
-    header > a:last-of-type,
-    nav a {
-    flex-direction: row;
-    }
+header button:nth-of-type(2) {
+    margin-right: 0;
 }
 
 
@@ -300,4 +261,8 @@ form button {
     color: #6E6B86;
     background-color: #fadeec;
 }
+
+/****************/
+/* LINKS  */
+/****************/
 
