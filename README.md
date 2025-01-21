@@ -45,14 +45,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
 
-  Merch pagina + sign up pagina
-  
-  ![IMG_5519](https://github.com/user-attachments/assets/e3e0ac01-6a02-437b-8124-a461afbd5c5a)
-  
+  Watch pagina + sign up pagina
   <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 07 22" src="https://github.com/user-attachments/assets/572fb615-9485-476a-bc47-f94c8d2927c8">
   <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 07 45" src="https://github.com/user-attachments/assets/65d70883-3d51-4b52-9cb6-9607350a6f4f">
-
-
  
 </details>
 
@@ -95,15 +90,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+  
+  Ik was eerst van plan om de 'Watch' pagina te maken, maar heb later toch besloten om de 'Merch' pagina te doen, de merch pagina is ook te zien in deze breakdownschets
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
+
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownschets_menu.png" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -117,22 +113,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  eigenlijk gaat het over het algemeen best goed. k begrijp alle oefeningen en kom hier goed doorheen.
+  eigenlijk gaat het over het algemeen best goed. Ik begrijp alle oefeningen en kom hier goed doorheen.
   we zijn natuurlijk nog niet echt begonnen met de website, op de eerste html na, dus over die voortgang valt nog niet heel veel te zeggen.
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | Sabrina        | Rafi               | Jeppe        | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | Qs eigen code  | copyright/bronnen? | achtergronden| -                |
-  | en dat ook nog | dit als er tijd is | nog een punt | -                |
-  | ...            | ...                | ...          | ...              |
+  | Sabrina        | Rafi               | Jeppe        | 
+  | ---            | ---                | ---          | 
+  | Q's eigen code | copyright/bronnen? | achtergronden|        
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen.
 
   - taal bovenin html veranderen
   - title veranderen
@@ -151,25 +143,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik begon hier goed op gang te komen en mijn website maakte aardig vaart. Het grootste deel stond hier eigenlijk al. Wat ik nog moet doen zijn eigenlijk alleen 
+  de surface plane, zoals animaties, en vette dingen, zoals een werkende dropdown selector en een verborgen zoekbalk. Wat ik tot nu toe het lastigst vond waren de foto's als 
+  achtergrond op de homepagina. Het was even flink aanklooien en vanalles proberen tot die netjes stonden en op de achtergrond scrollbaar waren. Ook heb ik nog best lopen       
+  priegelen met het positioneren van de nav elementen, maar uiteindelijk is dit wel gelukt.
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Sabrina        | Ravi            | Jeppe                                 | 
+  | ---            | ---             | ---                                   | 
+  | Q's eigen code | Q's eigen code  | Nav links waar geen pagina van is?    | 
+  | -              | -               | Mag 2 styles pagina's?                | 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - alle linkjes naar je 2e pagina laten gaan
   - merch pagina section article ipv div section
-  - 2 styles pagina's is prima voor jou
+  - 2 styles pagina's is prima voor mij
 
 </details>
 
@@ -197,32 +188,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-  - zoekbalk gaat niet over de rest van de header heen
-  - footer home pagina
+  Ik had hier wel wat verder gepriegeld aan de site en had onder andere gewerkt aan een zoekbalk die verschijnt nadat er op het icoontje van een vergrootglas
+  wordt geklikt. Ik vond dit lastiger dan verwacht, maar uiteindelijk was de code ook juist wel weer heel logisch. Ik heb dit gedaan met javascript. Er waren nog wel wat dingen 
+  waar ik tegenaan liep. Ik kreeg het namelijk niet voor elkaar om de zoekbalk over de rest van de header heen te krijgen, terwijl ik wel de order had veranderd.
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Sabrina        | Ravi            | Jeppe                                                | 
+  | ---            | ---             | ---                                                  | 
+  | Q's eigen code | Q's eigen code  | Zoekbalk wil niet over de rest van de header heen    | 
+  | -              | -               | Footer op de home pagina blijft niet staan           | 
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  
+  - Ik ben geholpen met het oplossen van de problemen met de zoekbalk en de footer door de studentassistente.
 
 </details>
-
-
 
 
 
