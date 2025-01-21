@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Rood
 
   #### Je focus:
-  Responsive / surface plane (twijfel)
+  Surface plane
  
 </details>
 
@@ -44,7 +44,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Watch pagina + sign up pagina  
+  
+  [Scherm­afbeelding 2025-01-21 om 18 17 49](https://github.com/user-attachments/assets/f58caade-d6ab-498d-8a46-57ec3f61bac2)
+
+  Merch pagina + sign up pagina
+  
   <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 07 22" src="https://github.com/user-attachments/assets/572fb615-9485-476a-bc47-f94c8d2927c8">
   <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 07 45" src="https://github.com/user-attachments/assets/65d70883-3d51-4b52-9cb6-9607350a6f4f">
 
