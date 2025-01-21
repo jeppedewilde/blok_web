@@ -58,12 +58,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
-![CamScanner 2025-01-21 18 23_5](https://github.com/user-attachments/assets/77677e74-417d-4580-9cfa-5488a9aecd37)
-![CamScanner 2025-01-21 18 23_4](https://github.com/user-attachments/assets/b5545827-8101-405f-b464-94314f366249)
-![CamScanner 2025-01-21 18 23_3](https://github.com/user-attachments/assets/b8544657-509a-41c3-b901-7073e3f2bdc1)
-![CamScanner 2025-01-21 18 23_2](https://github.com/user-attachments/assets/5ab008d7-4ff2-4696-97f2-22f61ccab687)
-![CamScanner 2025-01-21 18 23_1](https://github.com/user-attachments/assets/8514d0f2-a5d9-49f2-85c0-556ceeaaa911)
-
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
   - Pagina's hebben geen unieke titels
