@@ -46,7 +46,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
 
   Merch pagina + sign up pagina
+  
   ![IMG_5519](https://github.com/user-attachments/assets/e3e0ac01-6a02-437b-8124-a461afbd5c5a)
+  
   <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 07 22" src="https://github.com/user-attachments/assets/572fb615-9485-476a-bc47-f94c8d2927c8">
   <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 07 45" src="https://github.com/user-attachments/assets/65d70883-3d51-4b52-9cb6-9607350a6f4f">
 
@@ -61,8 +63,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
+![CamScanner 2025-01-21 18 23_5](https://github.com/user-attachments/assets/77677e74-417d-4580-9cfa-5488a9aecd37)
+![CamScanner 2025-01-21 18 23_4](https://github.com/user-attachments/assets/b5545827-8101-405f-b464-94314f366249)
+![CamScanner 2025-01-21 18 23_3](https://github.com/user-attachments/assets/b8544657-509a-41c3-b901-7073e3f2bdc1)
+![CamScanner 2025-01-21 18 23_2](https://github.com/user-attachments/assets/5ab008d7-4ff2-4696-97f2-22f61ccab687)
+![CamScanner 2025-01-21 18 23_1](https://github.com/user-attachments/assets/8514d0f2-a5d9-49f2-85c0-556ceeaaa911)
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - Pagina's hebben geen unieke titels
+  - Pagina's hebben geen heading elementen
+  - Er is geen keyboard focus
+  - Nav links op mobiele weergave zijn klein en verspreid, hierdoor zijn deze niet makkelijk aan te klikken
+  - Links in de footer staan te dicht op op elkaar
+  - Img elementen hebben geen alt
+  - Geen a elementen voor links
+  - Links zijn niet te herkennen als links
+  - Er is geen skip link
+  - Links die een nieuw tablad openen zonder dat dat van tevoren duidelijk is
+  - Geen light/dark mode
+  - Geen high-contrast mode
+  - Animaties veranderen niet bij prefers-reduced-motion media query
+  - Kleur contrast is niet goed genoeg bij normale tekst, icons en tekst die een afbeelding overlapt
+  - geen custom ::selection colors
 
 </details>
 
