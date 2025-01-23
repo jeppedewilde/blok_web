@@ -238,8 +238,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Thomas van Norden, docent (tip over onzichtbare h1 op teams) link: https://www.a11yproject.com/posts/how-to-hide-content/ 
+  2. CSS-Tricks attribute selectors link: https://css-      
+     tricks.com/almanac/selectors/a/attribute/#:~:text=To%20use%20this%20selector%2C%20add%20a%20tilde%20(~)%20before%20the,starts%20with%20the%20selected%20term. 
+  3. 
 
 </details>
