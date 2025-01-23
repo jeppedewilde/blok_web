@@ -32,6 +32,11 @@
 /* ALGEMEEN  */
 /****************/
 
+::selection {
+    color: black;
+    background-color: white;
+}
+
 * {
     border: 0;
     margin: 0;
@@ -440,5 +445,4 @@ form button {
 form button:hover {
     scale: 1.2;
 }
-
 

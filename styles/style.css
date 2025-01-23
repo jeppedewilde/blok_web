@@ -32,6 +32,11 @@
 /* ALGEMEEN */
 /****************/
 
+::selection {
+    color: black;
+    background-color: white;
+}
+
 * {
 	margin: 0;
 	border: 0;
