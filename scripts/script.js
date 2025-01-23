@@ -15,6 +15,10 @@ document.querySelector("select").addEventListener("change", function () {
     });
 });
 
+/****************/
+/* HAMBURGER MENU */
+/****************/
+
 var openButton = document.querySelector("header > button");
 
 openButton.onclick = openMenu;
@@ -22,10 +26,6 @@ function openMenu() {
   var deNav = document.querySelector("nav");
   deNav.classList.add("toonMenu");
 }
-
-/****************/
-/* HAMBURGER MENU */
-/****************/
 
 var openButton = document.querySelector("header > button");
 openButton.onclick = openMenu;
@@ -48,7 +48,7 @@ function sluitMenu() {
 }
 
 /**********************************/
-/* bonus: menu sluiten met escape */
+/* menu sluiten met escape */
 /**********************************/
 
 window.onkeydown = handleKeydown;
@@ -72,9 +72,7 @@ button.addEventListener('click', () => {
   input.focus(); 
 });
 
-/**************/
-/* ANIMATIONS */
-/**************/
+
 
 
 

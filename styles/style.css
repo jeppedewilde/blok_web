@@ -14,9 +14,17 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
 	--color-main:#fadeec;
 	--color-background:#657b9f;
+	--gradient-one:linear-gradient(
+		45deg,
+		#fadeec,
+		#6E6B86,
+		#fadeec,
+		#6E6B86,
+		#fadeec,
+		#6E6B86
+	)
 }
 
 
@@ -29,7 +37,7 @@
 	border: 0;
 	padding: 0;
 	font-family: 'League Spartan', 'Sans Serif';
-	color: #fadeec;
+	color: var(--color-main);
 }
 
 body {
@@ -49,19 +57,28 @@ main {
 nav {
 	margin-top: 1em;
 	text-align: center;
+	transform-origin: center;
 }
 
 nav ul li {
 	list-style-type: none;
+	height: fit-content;
 }
 
 nav ul li a {
-	color: #fadeec;
+	color: var(--color-main);
+	background-color: #657b9f80;
+	padding: 0.4em;
+	border-radius: 0.2em;
 	font-weight: 400;
 	text-transform: uppercase;
-	text-decoration: none;
+	text-decoration: underline;
 	font-family: 'League Spartan';
 	font-size: 1.2em;
+}
+
+nav ul li a:hover {
+	background-color: var(--color-background);
 }
 
 header {
@@ -111,24 +128,123 @@ nav ul li:nth-child(7) {
 	grid-row-start: 6;
 } 
 
-/****************/
-/* ALBUM TITLE + BUY BUTTON  */
-/****************/
+nav ul li:hover {
+	animation-name: navhome-animation;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
 
-main section:first-of-type {
+@keyframes navhome-animation {
+	0% {
+		scale: 1;
+	}
+	50% {
+		scale: 1.2
+	}
+	100% {
+		scale: 1;
+	}
+}
+
+/********************/
+/* OPMAAK SECTIONS  */
+/********************/
+
+main section:nth-of-type(1), main section:nth-of-type(2), main section:nth-of-type(3) {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	position: fixed;
-	margin-top: 15.5em;
+	background-color: #657b9f80;
+	padding: 0.4em;
+	border-radius: 0.3em;
+	width: 72vw;
+}
+
+/*************************/
+/* WHO IS LEWIS CAPALDI  */
+/*************************/
+
+main section:nth-of-type(2) {
+	margin-top: 13em;
+	width: 90vw;
+}
+
+/*****************************/
+/* ALBUM TITLE + BUY BUTTON  */
+/*****************************/
+
+main section:first-of-type {
+	margin-top: 36.5em;
+}
+
+main section:hover {
+	background-color: var(--color-background);
 }
 
 button {
-	color: #6E6B86;
-	background-color: #fadeec;
+	color: black;
 	padding: 9px 18px;
+	border-radius: 0.2em;
 	text-transform: uppercase;
 	font-size: 12px;
+	font-weight: bolder;
+	background-image: var(--gradient-one);
+	background-size: 200% 200%;
+	background-position:left bottom;
+	animation-name: gradient-animation;
+  	animation-duration: 3s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+	cursor: pointer;
+	width: 9.5em;
+}
+
+button:hover {
+	animation-name: gradient2-animation;
+  	animation-duration: 3s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes gradient-animation {
+	0% {
+	  background-position:left bottom;
+	}
+	100% {
+	  background-position:right top;
+	}
+}
+
+@keyframes gradient2-animation {
+	0% {
+	  background-position: right top;
+	}
+	100% {
+	  background-position: left bottom;
+	}
+}
+
+/****************/
+/* VIDEO  */
+/****************/
+
+main section:nth-of-type(3) {
+	margin-top: 29em;
+}
+
+input[type="checkbox"]:checked + video {
+    display: block;
+}
+
+video {
+    display: none;
+}
+
+label {
+	color: black;
+	cursor: pointer;
 }
 
 /****************/
@@ -137,7 +253,11 @@ button {
 
 h1 {
 	position: fixed;
-	margin-top: 5em;
+	margin-top: 4.4em;
+}
+
+main section:hover {
+	background-color: var(--color-background);
 }
 
 /****************/
@@ -166,17 +286,13 @@ footer {
 	text-align: center;
 }
 
-footer a, footer p {
+footer a {
 	text-decoration: none;
-	color: #fadeec;
+	color: var(--color-main);
+	cursor: pointer;
 }
 
 footer ul li {
 	display: flex;
 	flex-direction: row;
 }
-
-/****************/
-/* ANIMATIONS  */
-/****************/
-

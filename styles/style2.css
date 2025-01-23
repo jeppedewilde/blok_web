@@ -2,6 +2,32 @@
 /* MERCH PAGINA  */
 /****************/
 
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+      --color-main:#fadeec;
+      --color-background:#657b9f;
+      --color-background2: #6E6B86;
+      --gradient-one:linear-gradient(
+          45deg,
+          #fadeec,
+          #6E6B86,
+          #fadeec,
+          #6E6B86,
+          #fadeec,
+          #6E6B86
+      )
+  }
+
 /****************/
 /* ALGEMEEN  */
 /****************/
@@ -27,18 +53,18 @@ body {
 /****************/
 
 header {
-    padding-bottom: 3em;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-bottom: 3em;
+    margin-right: 0.3em;
 }
 
 header img {
     display: block;
-    /* justify-content: center; */
-    /* margin-left: 16vw; */
-    /* margin-right: 0; */
     margin-top: 1em;
+    margin-left: 1.6em;
     width: 50vw;
 }
 
@@ -48,23 +74,20 @@ header button, nav button {
     padding: 0.3em;
     font-size: 1.1em;
     margin-left: 0.3em;
+    cursor: pointer;
 }
 
 header button {
-    background-color: #6E6B86;
-    color: #fadeec; 
+    background-color: var(--color-background);
+    color: var(--color-main); 
 }
 
 nav button {
-    background-color: #fadeec;
-    color: #6E6B86;
+    background-color: var(--color-main);
+    color: var(--color-background);
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
-
-/* header > button {
-    order: -1;
-  } */
 
 nav {
     position:fixed;
@@ -74,7 +97,7 @@ nav {
     bottom: 0;
     translate: -100% 0%;
     transition: translate .3s;
-    background-color: #6E6B86;
+    background-color: var(--color-background);
     width: 50vw;
     height: fit-content;
 }
@@ -89,34 +112,62 @@ nav.toonMenu {
     translate: 0% 0%;
 }
 
-header button:nth-of-type(2), header button:nth-of-type(3) {
+nav ul li:hover {
+    animation-name: navmerch-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes navmerch-animation {
+    0% {
+        translate: 0% 0%;
+    }
+    50% {
+        translate: 10% 0%;
+    }
+    100% {
+        translate: 0% 0%;
+    }
+}
+
+/* winkelmandje icoon */
+
+header a button {
     background: none;
-    border: none;
     cursor: pointer;
-    outline: none;
+    font-size: 1.5em;
+}
+
+/* zoekbalk */
+
+header button:nth-of-type(2) {
+    background: none;
+    font-size: 1.5em;
 }
 
 header input[type="text"] {
-    width: 0; /* Begint onzichtbaar */
-    opacity: 0; /* Start onzichtbaar */
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid #fadeec;
-    background-color: #6E6B86;
-    border-radius: 4px;
+    width: 0; 
+    opacity: 0; 
+    padding: 1.2em;
+    font-size: 1em;
+    border: 0.1em solid var(--color-main);
+    background-color: var(--color-background);
+    border-radius: 0.3em;
     outline: none;
-    transition: width 0.4s ease; /* Animatie bij tonen/verbergen */
+    transition: width 0.4s ease; 
     z-index: 2;
     position: absolute;
-
+    margin-left: 4.8em;
+    margin-top: 0.9em;
 }
 
 ::placeholder {
-    color: #fadeec;
+    color: var(--color-main);
 }
 
 button.active + input[type="text"] {
-    width: 75vw; /* Toon de zoekbalk */
+    width: 55vw; 
     height: 2.5em;
     opacity: 1;
 }
@@ -125,9 +176,25 @@ header button:nth-of-type(2) {
     margin-right: 0;
 }
 
+/* animatie zoek icoon en winkelmandje icoon */
+header button:nth-of-type(2):hover , header a button:hover {
+    animation-name: iconsmerch-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes iconsmerch-animation {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
 
 /****************/
-/* H1 & DROPDOWN FLEX  */
+/* H1 & DROPDOWN: FLEX  */
 /****************/
 
 main div {
@@ -152,10 +219,17 @@ main section {
 }
 
 main section article {
-    height: fit-content;
+    min-height: 20vw;
     overflow: hidden;
     margin-top: 1em;
     max-width: 47vw;
+    background-color: #657b9f80;
+    padding: 0.4em;
+    border-radius: 0.3em;
+}
+
+main section article:hover {
+    background-color: #657b9f;
 }
 
 main section article img {
@@ -180,9 +254,11 @@ h3 {
 ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #fadeec;
+    color: var(--color-main);
     margin-bottom: 1em;
     margin-left: 1.5em;
+    transform-origin: center;
+    width: fit-content;
 }
 
 ul li {
@@ -193,6 +269,37 @@ ul li {
 
 main ul {
     margin-bottom: 2em;
+}
+
+main ul li a:hover {
+    animation-name: links-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: center;
+}
+
+@keyframes links-animation {
+    0% {
+        rotate: 0deg;
+        color: var(--color-background);
+    }
+    25% {
+        rotate: 5deg;
+        color: var(--color-background2);
+    }
+    50% {
+        rotate: 0deg;
+        color: var(--color-background);
+    }
+    75% {
+        rotate: -5deg;
+        color: var(--color-background2);
+    }
+    100% {
+        rotate: 0deg;
+        color: var(--color-background);
+    }
 }
 
 /****************/
@@ -212,11 +319,12 @@ footer p {
 select {
     font-size: 16px;
     padding: 10px 15px;
-    border: 2px solid #fadeec;
-    color: #fadeec;
-    background-color: #6E6B86;
+    border: 2px solid var(--color-main);
+    color: var(--color-main);
+    background-color: var(--color-background);
     cursor: pointer;
     margin-left: 0.3em;
+    outline: none;
 }
 
 /*************/
@@ -244,22 +352,46 @@ legend {
 }
 
 fieldset input {
-    background-color: #6E6B86;
-    border: 0.2em solid #fadeec;
+    background-color: var(--color-background2);
+    border: 0.2em solid var(--color-main);
     padding: 0.5em;
     width: 50vw;
     margin-bottom: 1em;
+    outline: none;
+}
+
+fieldset input:focus {
+    background-color: var(--color-background);
+}
+
+input:valid {
+    color: rgb(0, 255, 0);
+    background-color: rgb(0, 60, 0);
+    border: 0.2em solid var(--color-background2);
+}
+
+form:has(:invalid):has(button:focus) {
+    background-color: rgba(255, 0, 0, 0.747); 
+}
+
+form:has(input:valid):not(:has(:invalid)) {
+    background-color: rgba(0, 81, 0, 0.724); 
 }
 
 form label {
-    color: #fadeec;
+    color: var(--color-main);
 }
 
 form button {
     width: fit-content;
     padding: 0.5em;
-    color: #6E6B86;
-    background-color: #fadeec;
+    color: var(--color-background2);
+    background-color: var(--color-main);
+    cursor: pointer;
+}
+
+form button:hover {
+    scale: 1.2;
 }
 
 /****************/
