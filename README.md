@@ -227,8 +227,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
+  
+  Home pagina
   <img src="readme-images/def_lewishome.png" width="375px" alt="uitomst opdracht, home">
+  
+  Merch pagina (deel 1)
   <img src="readme-images/def_lewismerch.png" width="375px" alt="uitomst opdracht, merch">
+  
+  Merch pagina (deel 1) met formulier
   <img src="readme-images/def_lewisform.png" width="375px" alt="uitomst opdracht, form">
 
 
