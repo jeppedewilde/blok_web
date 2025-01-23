@@ -86,7 +86,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown van beide pagina's">
+  <img src="/readme-images/breakdownschets.png" width="375px" alt="breakdown van beide pagina's">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/breakdownschets_menu.png" width="375px" alt="breakdown van menu">
