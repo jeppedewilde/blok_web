@@ -39,15 +39,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.lewiscapaldi.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Home pagina  
-  <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 06 36" src="https://github.com/user-attachments/assets/00d2eabc-77a5-42b7-b31b-eb86590a6d22">
-
+  hier de naam van de pagina  
+  <img src="readme-images/lewishome.png" width="375px" alt="Home pagina website Lewis Capaldi">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-
-  Watch pagina + sign up pagina
-  <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 07 22" src="https://github.com/user-attachments/assets/572fb615-9485-476a-bc47-f94c8d2927c8">
-  <img width="367" alt="Scherm­afbeelding 2024-11-21 om 11 07 45" src="https://github.com/user-attachments/assets/65d70883-3d51-4b52-9cb6-9607350a6f4f">
+  hier de naam van de pagina  
+  <img src="readme-images/lewismerch1.png" width="375px" alt="Eerste helft van merch pagina website Lewis Capaldi">
+  <img src="readme-images/lewismerch2.png" width="375px" alt="Tweede helft van merch pagina website Lewis Capaldi">
+  <img src="readme-images/lewisform.jpg" width="375px" alt="Form van website Lewis Capaldi">
  
 </details>
 
@@ -58,8 +57,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
+  Ingescande toegankelijkheidstest is te vinden bij toegankelijkheidstest 2/2.
+
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
   - Pagina's hebben geen unieke titels
   - Pagina's hebben geen heading elementen
   - Er is geen keyboard focus
@@ -84,16 +84,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
-  
-  Ik was eerst van plan om de 'Watch' pagina te maken, maar heb later toch besloten om de 'Merch' pagina te doen, de merch pagina is ook te zien in deze breakdownschets
 
   ### de hele pagina: 
-  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
-
+  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown van beide pagina's">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdownschets_menu.png" width="375px" alt="breakdown van een dynamisch deel">
-
+  <img src="readme-images/breakdownschets_menu.png" width="375px" alt="breakdown van menu">
 
 </details>
 
@@ -156,9 +152,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - merch pagina section article ipv div section
   - 2 styles pagina's is prima voor mij
 
+
 </details>
-
-
 
 
 
@@ -167,11 +162,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
+  <img src="readme-images/testp1.jpg" width="375px" alt="toegankelijkheidstest pagina 1">
+  <img src="readme-images/testp2.jpg" width="375px" alt="toegankelijkheidstest pagina 2">
+  <img src="readme-images/testp3.jpg" width="375px" alt="toegankelijkheidstest pagina 3">
+  <img src="readme-images/testp4.jpg" width="375px" alt="toegankelijkheidstest pagina 4">
+  <img src="readme-images/testp5.jpg" width="375px" alt="toegankelijkheidstest pagina 5">
+
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Verbeteringen
+  - Elke pagina heeft nu een unieke titel (verbetering)
+  - Focus is nu wel zichtbaar bij tab (verbetering)
+  - Navigatie op mobiel was lastig omdat de nav elementen op het home scherm te klein waren, dat is nu niet meer (verbetering)
+  - Er waren geen headings om nieuwe content te introduceren, die zijn er nu wel (verbetering)
+  - Images hadden geen alt tekst, nu wel (verbetering)
+  - Er wordt nu a gebruikt voor links (verbetering)
+  - Links zijn te herkennen als links (verbetering)
+  - Niet meer naar een ander tablad zonder dat dat van tevoren duidelijk is (verbetering)
+  - Slechte contrast in kleur is op alle vlakken verbeterd (verbetering)
+
+  Verbeterpunten
+  - De headings op de home pagina gaan met screenreader niet op volgorde van boven naar beneden (verbeterpunt)
+  - Er is nog geen skip link (verbeterpunt)
+  - Er is nog geen light/dark mode of high contrast mode supported (verberpunt)
+  - Animaties luisteren niet naar prefers-reduced-motion media query (verbeterpunt)
 
 </details>
-
 
 
 
@@ -204,29 +219,42 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
+
+
 ## Eindgesprek (week 5)
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/def_lewishome.png" width="375px" alt="uitomst opdracht, home">
+  <img src="readme-images/def_lewismerch.png" width="375px" alt="uitomst opdracht, merch">
+  <img src="readme-images/def_lewisform.png" width="375px" alt="uitomst opdracht, form">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  
+  Ik ben erg trots op het dropdown menu dat ik heb gemaakt met de verschillende valuta, en dat deze valuta bij de webshopitems ook echt       reageren en aanpassen als er iets wordt gekozen in de dropdown.
+  <img src="readme-images/top_dropdown.png" width="375px" alt="top dropdown">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Het hamburger menu op de merch pagina vind ik ook heel gaaf, het was uiteindelijk minder lastig dan ik dacht!
+  <img src="readme-images/top_hamburgermenu.png" width="375px" alt="top hamburger menu">
+
+  De video op mijn home pagina, die pas verschijnt als er op "watch video" wordt geklikt vind ik ook heel gaaf. Dit ging ook best makkelijk. Het bestand was eerst wel veel te groot (schermopname, mp4) dus ik heb geprobeerd de video te embedden vanuit youtube. Op een of andere manier bleef de video foutmeldingen geven dus toen heb ik het mp4 bestand gecomprimeert tot het klein genoeg was. Dit heeft helaas wel de kwaliteit flink verminderd.
+  <img src="readme-images/top_hiddenvideo.png" width="375px" alt="top hidden video">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Na het eerste eindgesprek kreeg ik de feedback om de verschijnende zoekbalk niet met javascript te doen, maar met een label en een focusstate. Ik ben hier een flinke tijd mee bezig geweest en het verschijnen van de zoekbalk lukte wel, maar het verschijnen van de zoekbalk bleef de overige content in de header verschuiven, wat ik ook probeerde. Dit is dus helaas niet gegaan zoals ik wilde. Ik heb de zoekbalk toen terugveranderd naar de oorspronkelijke zoekbalk met javascript code.
+
+  <img src="readme-images/htmlzoekbalk.png" width="375px" alt="bummer html zoekbalk">
+  <img src="readme-images/csszoekbalk.png" width="375px" alt="bummer css zoekbalk">
+  <img src="readme-images/beforeclickzoekbalk.png" width="375px" alt="bummer zoekbalk voor klikken op zoek-icoon">
+  <img src="readme-images/afterclickzoekbalk.png" width="375px" alt="bummer zoekbalk na klikken op zoek-icoon">
+  <img src="readme-images/overflowzoekbalk.png" width="375px" alt="bummer overflow na verschijnen zoekbalk">
+
 </details>
-
-
-
 
 
 ## Bronnenlijst
@@ -238,9 +266,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. Thomas van Norden, docent (tip over onzichtbare h1 op teams) link: https://www.a11yproject.com/posts/how-to-hide-content/ 
-  2. CSS-Tricks attribute selectors link: https://css-      
-     tricks.com/almanac/selectors/a/attribute/#:~:text=To%20use%20this%20selector%2C%20add%20a%20tilde%20(~)%20before%20the,starts%20with%20the%20selected%20term. 
-  3. 
+  1. Website van Lewis Capaldi, link: https://www.lewiscapaldi.com/
+  2. YouTube video Forget Me van Lewis Capaldi, link: https://www.youtube.com/watch?v=nBZlrbrBO1I&t=15s  
+  2. Thomas van Norden, docent (tip over onzichtbare h1 op teams), link: https://www.a11yproject.com/posts/how-to-hide-content/ 
+  3. CSS-Tricks almanac selectors a attribute, link: https://css-tricks.com/almanac/selectors/a/attribute/#:~:text=To%20use%20this%20selector%2C%20add%20a%20tilde%20(~)%20before%20the,starts%20with%20the%20selected%20term. 
+  4. Klasgenoten die in de les even meekeken en kleine tips gaven omdat zij al wisten hoe iets moest
+  5. Oefeningen uit de lessen!
 
 </details>
