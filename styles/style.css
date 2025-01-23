@@ -140,11 +140,47 @@ nav ul li:hover {
 		scale: 1;
 	}
 	50% {
-		scale: 1.2
+		scale: 1.2;
 	}
 	100% {
 		scale: 1;
 	}
+}
+
+/****************/
+/* MAIN  */
+/****************/
+
+.visually_hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* bron: https://css-tricks.com/almanac/selectors/a/attribute/#:~:text=To%20use%20this%20selector%2C%20add%20a%20tilde%20(~)%20before%20the,starts%20with%20the%20selected%20term. */
+main img[alt~="Logo"] {
+	margin-top: 8.8em;
+	z-index: 2;
+	position: fixed;
+}
+
+/****************/
+/* BACKGROUND IMAGES  */
+/****************/
+
+main section:nth-of-type(2) {
+	overflow-y: scroll;
+}
+
+img {
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	object-fit: cover;
 }
 
 /********************/
@@ -160,6 +196,10 @@ main section:nth-of-type(1), main section:nth-of-type(2), main section:nth-of-ty
 	padding: 0.4em;
 	border-radius: 0.3em;
 	width: 72vw;
+}
+
+main section:hover {
+	background-color: var(--color-background);
 }
 
 /*************************/
@@ -183,7 +223,7 @@ main section:hover {
 	background-color: var(--color-background);
 }
 
-button {
+main section a, section label {
 	color: black;
 	padding: 9px 18px;
 	border-radius: 0.2em;
@@ -199,6 +239,7 @@ button {
   	animation-iteration-count: infinite;
 	cursor: pointer;
 	width: 9.5em;
+	text-decoration: none;
 }
 
 button:hover {
@@ -210,10 +251,10 @@ button:hover {
 
 @keyframes gradient-animation {
 	0% {
-	  background-position:left bottom;
+	  background-position: left bottom;
 	}
 	100% {
-	  background-position:right top;
+	  background-position: right top;
 	}
 }
 
@@ -245,34 +286,6 @@ video {
 label {
 	color: black;
 	cursor: pointer;
-}
-
-/****************/
-/* MAIN  */
-/****************/
-
-h1 {
-	position: fixed;
-	margin-top: 4.4em;
-}
-
-main section:hover {
-	background-color: var(--color-background);
-}
-
-/****************/
-/* BACKGROUND IMAGES  */
-/****************/
-
-main section:nth-of-type(2) {
-	overflow-y: scroll;
-}
-
-img {
-	width: 100vw;
-	height: 100vh;
-	z-index: -1;
-	object-fit: cover;
 }
 
 /****************/
