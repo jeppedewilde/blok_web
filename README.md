@@ -162,11 +162,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
-  <img src="readme-images/testp1.jpg" width="375px" alt="toegankelijkheidstest pagina 1">
-  <img src="readme-images/testp2.jpg" width="375px" alt="toegankelijkheidstest pagina 2">
-  <img src="readme-images/testp3.jpg" width="375px" alt="toegankelijkheidstest pagina 3">
-  <img src="readme-images/testp4.jpg" width="375px" alt="toegankelijkheidstest pagina 4">
-  <img src="readme-images/testp5.jpg" width="375px" alt="toegankelijkheidstest pagina 5">
+  <img src="/readme-images/testp1.jpg" width="375px" alt="toegankelijkheidstest pagina 1">
+  <img src="/readme-images/testp2.jpg" width="375px" alt="toegankelijkheidstest pagina 2">
+  <img src="/readme-images/testp3.jpg" width="375px" alt="toegankelijkheidstest pagina 3">
+  <img src="/readme-images/testp4.jpg" width="375px" alt="toegankelijkheidstest pagina 4">
+  <img src="/readme-images/testp5.jpg" width="375px" alt="toegankelijkheidstest pagina 5">
 
   ### Bevindingen
   Verbeteringen
